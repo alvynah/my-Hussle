@@ -1,0 +1,154 @@
+body{
+    
+    background-size: cover;
+    font-family: Arial;
+    color: rgb(236, 236, 74);
+    background-image: url("/images/blue1.jpg");
+    z-index: 1;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    
+}
+ul li{
+    float: left;
+    width: 200px;
+    height: 40px;
+    background-color:;
+    opacity: .8;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    margin-right: 2px;
+    
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-left: 1px;
+    margin-right: 1px;
+    align-items: right;
+}
+ul li a:hover{
+    background-color:#021109;
+}
+ul li ul li{
+    display: inline-block;
+    margin-bottom: 1px;
+    margin-top: 1px;
+    display: none; 
+}
+ul li:hover ul li{
+    display: block;
+    background-color: black;
+    cursor: pointer;
+    float: right;
+    color: cyan;
+}
+.section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+
+/* .video-container{
+    position: relative;
+    top: 0px;
+    width: 100px; 
+    height: 100vh;
+    
+} */
+body ul li ul li:hover ul li{
+    display: ;
+    background-color: black;
+    cursor: pointer;
+    float: center;
+    color;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+.row{
+    display: inline-block;
+    height: 80%;
+    align-items: center;
+    
+
+
+}
+.col{
+    flex-basis: 100%;
+    margin-top: 50px;
+}
+button{
+    color: yellowgreen;
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: goldenrod;
+    border: 0;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    margin-top: 30px;
+    font-size: medium;
+    margin-bottom: 10px;
+}
+button:hover{
+    background-color: goldenrod ;
+    color: hotpink;
+}
+.row h1{
+    color: white;
+    font-family: cursive;
+    font-size: xx-large;
+    height: 50px;
+    font-display: bold;
+}
+.col p{
+    color: whitesmoke;
+}
+/* .social-links{
+    z-index: 2;
+    background-color:none;
+    margin-bottom: 2px;
+    float: right;
+    display: block;
+    
+} */
+#landing-video{
+    width: 100%;
+    height: 100%;
+}
+.social-links{
+    float: right;
+    display: inline-block;
+
+}
+.social-links img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    padding: 1px
+
+}
+
+
+
