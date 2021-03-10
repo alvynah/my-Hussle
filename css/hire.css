@@ -25,6 +25,26 @@ html {
     display: block;
 }
 
+#carouselServices {
+    background-color: black;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 0 grey;
+    max-height: 100vh;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+#carouselServices img {
+    height: 70vh;
+}
+
+#descriptioncarousel {
+    font-weight: bold;
+}
+
 form {
     width: 60%;
     padding: 20px;
