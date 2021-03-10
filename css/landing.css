@@ -22,6 +22,7 @@ ul li{
     text-align: center;
     font-size: 20px;
     margin-right: 2px;
+    
 }
 ul li a{
     text-decoration: none;
@@ -81,9 +82,46 @@ body ul li ul li:hover ul li{
     display: inline-block;
     height: 80%;
     align-items: center;
-    flex-basis: 50%;
+    
 
 
 }
 .col{
-    flex-basis: 50%;
+    flex-basis: 100%;
+    margin-top: 50px;
+}
+button{
+    color: yellowgreen;
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: goldenrod;
+    border: 0;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    margin-top: 30px;
+    font-size: medium;
+    margin-bottom: 10px;
+}
+button:hover{
+    background-color: goldenrod ;
+    color: hotpink;
+}
+.row h1{
+    color: white;
+    font-family: cursive;
+    font-size: xx-large;
+    height: 50px;
+    font-display: bold;
+}
+.col p{
+    color: whitesmoke;
+}
+
+
+
+
