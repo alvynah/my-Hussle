@@ -48,11 +48,7 @@ label {
 }
 
 #hireService {
-<<<<<<< HEAD
-    background-image: url(../images/backgroundservices2.jpg);
-=======
-    background-image: url(../images/background-images/backgroundservices2.jpg);
->>>>>>> 70b0a144b2046dd6c6ff86bc911a7a1eccc0ff8b
+    background-image: url(../images/services.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
