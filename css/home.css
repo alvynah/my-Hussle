@@ -48,4 +48,43 @@ html {
     float: right;
 }
 
-.topbar-social:hover {}
+#header2 {
+    background-image: url(../images/homebackground2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    text-align: center;
+    color: white;
+    padding-top: 5%;
+}
+
+#header2 h1 {
+    font-size: 60px;
+}
+
+#header2 img {
+    border: 4px solid black;
+    border-radius: 30%;
+}
+
+#mouse-click {
+    padding-top: 2.2%;
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateX(0);
+    }
+    40% {
+        transform: translateX(-55px);
+    }
+    60% {
+        transform: translateX(-45px);
+    }
+}
