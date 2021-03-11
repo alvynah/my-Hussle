@@ -50,6 +50,31 @@
     float: right;
 }
 
+.card {
+    height: 500px;
+}
+
+.card-img-top {
+    height: 200px
+}
+
+.card-body {
+    height: 100px
+}
+
+.card-footer {
+    height: 100px;
+}
+
+.cardTrendingJobs {
+    height: 400px;
+}
+
+.card-img-top:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px;
+}
+
 .footer {
     text-align: center;
     background-color: rgba(0, 0, 0, 0.8);
@@ -58,4 +83,9 @@
     width: 100%;
     /* position: fixed;
     z-index: 1; */
+}
+
+.btn {
+    width: 100%;
+    height: 70%;
 }

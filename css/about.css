@@ -65,7 +65,7 @@ footer {
 }
 
 .about-section {
-    background: url(../images/about.jpg) no-repeat left;
+    background: url(../images/aboutus.jpg) no-repeat left;
     background-size: 55%;
     background-color: #fdfdfd;
     overflow: hidden;
@@ -101,7 +101,11 @@ footer {
     display: flex;
     justify-content: space-between;
     font-weight: 700;
-    font-size: 13px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 1px solid black;
+    border-radius: 5%;
+    box-shadow: 0 0 30px 0 grey;
 }
 
 .form-control {
