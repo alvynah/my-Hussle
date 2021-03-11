@@ -3,25 +3,26 @@
     padding: 0;
     box-sizing: border-box;
     color: white;
-  }
-  body {
+}
+
+body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f1f1f1;
     position: relative;
     padding-bottom: 58px;
     min-height: 100vh;
-  }
-  
-  main {
+}
+
+main {
     width: 90vw;
     margin: 0 auto;
     padding: 30px 20px;
     /* min-height: calc(100vh - 211px - 58px); */
-  }
-  
-  footer {
+}
+
+footer {
     text-align: center;
-    background-color: rgb(16, 20, 212);
+    background-color: rgba(0, 0, 0, 0.8);
     color: #fff;
     padding: 10px;
     position: absolute;
@@ -29,27 +30,47 @@
     width: 100%;
     /* position: fixed;
     z-index: 1; */
-  }
-  
-  @media(max-width:768px) {
-    header { padding: 30px 20px; }
-    header h1 { font-size: 36px; margin-bottom: 22px; }
-    header p { font-size: 18px; }
-    main { width: 100vw; padding: 20px; }
-    article { margin-bottom: 16px; font-size: 14px; }
-    article h3 { margin: 10px 0 20px 0; }
-    article p { margin-top: 16px; line-height: 20px; }
-  }
-  .about-section{
+}
+
+@media(max-width:768px) {
+    header {
+        padding: 30px 20px;
+    }
+    header h1 {
+        font-size: 36px;
+        margin-bottom: 22px;
+    }
+    header p {
+        font-size: 18px;
+    }
+    main {
+        width: 100vw;
+        padding: 20px;
+    }
+    article {
+        margin-bottom: 16px;
+        font-size: 14px;
+    }
+    article h3 {
+        margin: 10px 0 20px 0;
+    }
+    article p {
+        margin-top: 16px;
+        line-height: 20px;
+    }
+}
+
+.about-section {
     background: url(../images/about.jpg) no-repeat left;
     background-size: 55%;
     background-color: #fdfdfd;
     overflow: hidden;
     padding: 100px 0;
-    opacity: 0.9;;
+    opacity: 0.9;
+    ;
 }
 
-.inner-container{
+.inner-container {
     width: 55%;
     float: right;
     background-color: #fdfdfd;
@@ -57,14 +78,14 @@
     opacity: 1;
 }
 
-.inner-container h1{
+.inner-container h1 {
     margin-bottom: 30px;
     font-size: 30px;
     font-weight: 900;
     color: black;
 }
 
-.text{
+.text {
     font-size: 20px;
     color: #080707;
     line-height: 30px;
@@ -72,12 +93,26 @@
     margin-bottom: 40px;
 }
 
-.skills{
+.skills {
     display: flex;
     justify-content: space-between;
     font-weight: 700;
     font-size: 13px;
 }
-.form-control{
-  width:40%;
+
+.form-control {
+    width: 40%;
+}
+
+.contact {
+    box-shadow: 0 0 20px 0 grey;
+    float: right;
+    margin-bottom: 5px;
+}
+
+.btn {
+    width: 100%;
+    background-color: rgb(7, 118, 221);
+    color: whitesmoke;
+    border-radius: 5px;
 }
