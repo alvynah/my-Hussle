@@ -1,0 +1,10 @@
+body {
+    
+    border-style: dotted;
+    background-color: lightskyblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+    border-color: lime;
+    text-align: center;
+}
