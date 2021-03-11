@@ -1,13 +1,14 @@
-*
-{
+* {
     margin: 0;
     padding: 0;
 }
-.header{
+
+.header {
     background: rgba(0, 0, 100, 0.4);
     height: 100vh;
 }
-.Video-background{
+
+.Video-background {
     position: absolute;
     right: 0;
     bottom: 0;
@@ -16,47 +17,52 @@
     width: auto;
     height: auto;
     z-index: -1;
-
 }
-@media (min-aspect-ratio:16/9){
-    .Video-background{
+
+@media (min-aspect-ratio:16/9) {
+    .Video-background {
         width: 100%;
         height: auto;
-
     }
 }
-@media (max-aspect-ratio:16/9){
-    .Video-background{
+
+@media (max-aspect-ratio:16/9) {
+    .Video-background {
         width: 100%;
         height: auto;
-        
     }
 }
-.logo{
+
+.logo {
     margin: 25px;
     height: 40px;
 }
-.landing-page{
+
+.landing-page {
     position: relative;
-    text-align: left;
+    text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: seashell;
     top: 150px;
-    font-size: larger;
+    font-size: 24px;
 }
-.landing-page h1{
+
+.landing-page h1 {
     font-size: 80px;
     font-weight: 100;
     letter-spacing: 5px;
     margin-bottom: 30px;
 }
-.btn{
+
+.btn {
     font-size: 18px;
     color: #fff;
     margin: 5px;
     padding: 7px 22px;
     text-decoration: none;
-    border: 1px solid coral;
+    border: 1px solid black;
+    margin-top: 20%;
+    box-shadow: 0 0 20px 0 grey;
     border-radius: 25px;
     -webkit-border-radius: 25px;
     -moz-border-radius: 25px;
@@ -64,11 +70,12 @@
     -o-border-radius: 25px;
     padding-top: 1px;
 }
-.btn-Hire{
-    background-color:coral;
 
+.btn-Hire {
+    background-color: rgb(7, 118, 221);
 }
-.btn:hover{
+
+.btn:hover {
     background: black;
     transition: .5s;
     -webkit-transition: .5s;
@@ -76,14 +83,16 @@
     -ms-transition: .5s;
     -o-transition: .5s;
 }
-.social-links{
+
+.social-links {
     float: right;
     /* display: inline-table; */
     /* height: 10px;
     justify-conten */
     display: flex;
 }
-.Nav-Bar{
+
+.Nav-Bar {
     float: center;
     width: 200px;
     height: 10px;
@@ -94,15 +103,9 @@
     padding-left: 120px;
     position: relative;
     display: block;
-    
-
-}
-.Nav-Bar a{
-    color:lime;
-    background:black;
-    
-
 }
 
-
-
+.Nav-Bar a {
+    color: lime;
+    background: black;
+}
