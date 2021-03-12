@@ -23,7 +23,7 @@ fetch("../js/hire.json")
                 temp += "<td>" + u.location + "</td>";
                 temp += "<td>" + u.rates + "</td>";
                 temp += "<td>" + u.ratings + "</td>";
-                temp += "<td>" + "<input type='checkbox'>" + "</td>";
+                temp += "<td>" + "<input type='checkbox'class='serviceproviderSelect'>" + "</td>";
 
             });
             document.getElementById("servicesOrderedBodyTable").innerHTML = temp;
@@ -56,6 +56,14 @@ $(document).ready(function() {
         $("#serviceSelect").val("0");
         $("#description").val("");
     });
-
+//$(".serviceproviderSelect").select(function(){
+//var select = $(".serviceproviderSelect").val()
+    //if (select==checked){
+       // alert("Thank you for selecting a service provider.We will contact you shortly!");
+       //$("#serviceOrdered").hide();
+       // console.log("hehehe");
+  //  }
+    
+//})
 
 });
