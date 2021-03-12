@@ -157,8 +157,8 @@
             </div>
 
             <!-- Customer forms -->
-            <div class="row">
-                <div class="col-sm-10">
+            <div class="row" id="orderDetails">
+                <div class="col-lg-5">
                     <form id=customerdetailsForm>
                         <div class="form-group ">
                             <label for="name">Full Name :</label>
@@ -191,14 +191,46 @@
                             <textarea type="text" id="description" class="form-control " rows="4" placeholder="Description ..." required></textarea>
                         </div>
                         <button type="submit" class="btn" id="requestService">Request service</button>
-                </div>
-                </form>
-            </div>
-        </div>
-    </div>
-    <br style="clear: both">
+                    </form>
 
-    <script src="../js/hire.js"></script>
+                </div>
+                <div class="col-lg-7" id="serviceOrdered">
+
+                    <div class="container">
+                        <h2>Here are workers in your area</h2>
+                        <div id="your-orders">
+                            <table class="table table-sm  serviceorderedTable">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">First name</th>
+                                        <th scope="col">Last Name</th>
+                                        <th scope="col">Phone Number</th>
+                                        <th scope="col">Email Address</th>
+                                        <th scope="col">Rates</th>
+                                        <th scope="col">Reviews</th>
+                                        <th scope="col">Select</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="servicesOrderedTable">
+                                    <tr>
+                                        <td id="firstname"></td>
+                                        <td id="lastname"></td>
+                                        <td id="phone"></td>
+                                        <td id="email"></td>
+                                        <td id="rates"></td>
+                                        <td id="reviews"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <br style="clear: both">
+
+            <script src="../js/hire.js"></script>
 </body>
 
 </html>

@@ -67,7 +67,7 @@ form {
     border-radius: 6px;
     background: transparent;
     box-shadow: 0 0 20px 0 rgb(7, 118, 221);
-    float: left;
+    margin-left: 3%;
 }
 
 label {
@@ -147,4 +147,13 @@ input:hover::placeholder {
     border: 1px solid transparent;
     box-shadow: 0 0 6px 0 rgb(7, 118, 221);
     color: rgb(7, 118, 221);
+}
+
+#serviceOrdered {
+    display: none;
+}
+
+#orderDetails {
+    text-align: center;
+    align-items: center;
 }
