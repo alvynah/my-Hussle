@@ -114,12 +114,13 @@ body {
 }
 
 form {
-    width: 60%;
+    width: 100%;
     padding: 20px;
     border-radius: 6px;
     background: transparent;
     box-shadow: 0 0 20px 0 rgb(7, 118, 221);
     float: left;
+    margin-left: 2%;
 }
 
 label {
