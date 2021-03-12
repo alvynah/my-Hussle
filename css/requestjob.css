@@ -1,10 +1,17 @@
+
 body {
-    
-    border-style: dotted;
-    background-color: lightskyblue;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: medium;
-    font-style: italic;
-    border-color: lime;
+    background-image: url(images/backgroundservices2.jpg);
     text-align: center;
+    font-family: monospace;
+    font-weight: bold;
+
+}
+#name {
+    background: darksalmon;
+}
+#email {
+    background-color: hotpink;
+    border-style: dashed;
+    border-radius: 1.5px;
+}
 }
