@@ -1,11 +1,11 @@
 # myHussle
 ## Author
-[Alvynah Wabwoba-Scrum Master](https://github.com/alvynah)
-[Dunstan M'mbehero- Assistant Scrum Master](https://github.com/ubuntustan)
-[David Muoki-Team Member](https://github.com/David2021-alt)
-[Nelson Wandui-Team Member](https://github.com/EnnyDin)
-[Elvis Mwenda-Team Member](https://github.com/KingNEM)
-#### By **{Self}**
+1. [Alvynah Wabwoba-Scrum Master](https://github.com/alvynah)
+2. [Dunstan M'mbehero- Assistant Scrum Master](https://github.com/ubuntustan)
+3. [David Muoki-Team Member](https://github.com/David2021-alt)
+4. [Nelson Wandui-Team Member](https://github.com/EnnyDin)
+5. [Elvis Mwenda-Team Member](https://github.com/KingNEM)
+#### By **{group11}**
 ## Description
 A precise, efficient and effective site that simplifies search for blue collar workers  in your local area who are qualified and offer quality services to customers. 
 
