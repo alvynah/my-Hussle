@@ -62,7 +62,7 @@ body {
 }
 
 form {
-    width: 60%;
+    width: 100%;
     padding: 20px;
     border-radius: 6px;
     background: transparent;
@@ -151,9 +151,14 @@ input:hover::placeholder {
 
 #serviceOrdered {
     display: none;
+    float: left;
 }
 
 #orderDetails {
-    text-align: center;
-    align-items: center;
+    text-align: left;
+    align-items: left;
+}
+
+#serviceorderedTable {
+    float: left;
 }

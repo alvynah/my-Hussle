@@ -1,5 +1,96 @@
 {
-    "providers": [{
+    "plumbers": [{
+            "userId": 1,
+            "firstName": "Alvynah",
+            "lastName": "Wabwoba",
+            "phoneNumber": "0723456789",
+            "emailAddress": "krish.lee@learningcontainer.com",
+            "location": "Juja",
+            "rates": "$10 per hour",
+            "ratings": "5 Star"
+
+        },
+        {
+            "userId": 2,
+            "firstName": "Dunstan",
+            "lastName": "Mmbehero",
+            "phoneNumber": "0798234566",
+            "emailAddress": "krish.lee@learningcontainer.com",
+            "location": "Kahawa",
+            "rates": "$10 per hour",
+            "ratings": "5 Star"
+
+        },
+        {
+            "userId": 3,
+            "firstName": "Nelson",
+            "lastName": "Wandui",
+            "phoneNumber": "0737284978",
+            "emailAddress": "krish.lee@learningcontainer.com",
+            "location": "Riruta",
+            "rates": "$10 per hour",
+            "ratings": "5 Star"
+
+        },
+        {
+            "userId": 4,
+            "firstName": "David",
+            "lastName": "Muoki",
+            "phoneNumber": "O768349032",
+            "emailAddress": "krish.lee@learningcontainer.com",
+            "location": "Uthiru",
+            "rates": "$10 per hour",
+            "ratings": "5 Star"
+
+        },
+        {
+            "userId": 5,
+            "firstName": "Elvis",
+            "lastName": "Lee",
+            "phoneNumber": "0792345678",
+            "emailAddress": "krish.lee@learningcontainer.com",
+            "location": "Kangemi",
+            "rates": "$10 per hour",
+            "ratings": "5 Star"
+
+        },
+        {
+            "userId": 6,
+            "firstName": "Krish",
+            "lastName": "Lee",
+            "phoneNumber": "123456",
+            "emailAddress": "krish.lee@learningcontainer.com",
+            "location": "Thika",
+            "rates": "$10 per hour",
+            "ratings": "5 Star"
+
+        },
+        {
+            "userId": 7,
+            "firstName": "Krish",
+            "lastName": "Lee",
+            "phoneNumber": "123456",
+            "emailAddress": "krish.lee@learningcontainer.com",
+            "location": "Westlands",
+            "rates": "$10 per hour",
+            "ratings": "5 Star"
+
+        },
+        {
+            "userId": 8,
+            "firstName": "Krish",
+            "lastName": "Lee",
+            "phoneNumber": "123456",
+            "emailAddress": "krish.lee@learningcontainer.com",
+            "location": "Rongai",
+            "rates": "$10 per hour",
+            "ratings": "5 Star"
+
+        }
+
+    ],
+
+    "gardener": [{
             "userId": 1,
             "firstName": "Krish",
             "lastName": "Plumber",

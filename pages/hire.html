@@ -158,7 +158,7 @@
 
             <!-- Customer forms -->
             <div class="row" id="orderDetails">
-                <div class="col-lg-5">
+                <div class="col-lg-3">
                     <form id=customerdetailsForm>
                         <div class="form-group ">
                             <label for="name">Full Name :</label>
@@ -194,32 +194,28 @@
                     </form>
 
                 </div>
-                <div class="col-lg-7" id="serviceOrdered">
+                <div class="col-lg-9" id="serviceOrdered">
 
                     <div class="container">
                         <h2>Here are workers in your area</h2>
                         <div id="your-orders">
-                            <table class="table table-sm  serviceorderedTable">
+                            <table class="table table-sm" id="serviceorderedTable">
                                 <thead>
                                     <tr>
-                                        <th scope="col">First name</th>
-                                        <th scope="col">Last Name</th>
-                                        <th scope="col">Phone Number</th>
-                                        <th scope="col">Email Address</th>
-                                        <th scope="col">Rates</th>
-                                        <th scope="col">Reviews</th>
-                                        <th scope="col">Select</th>
+                                        <th scope="col">No</th>
+                                        <th scope="col ">First name</th>
+                                        <th scope="col ">Last Name</th>
+                                        <th scope="col ">Phone Number</th>
+                                        <th scope="col ">Email Address</th>
+                                        <th scope="col ">Location</th>
+                                        <th scope="col ">Rates</th>
+                                        <th scope="col ">Reviews</th>
+                                        <th scope="col ">Select</th>
                                     </tr>
                                 </thead>
-                                <tbody id="servicesOrderedTable">
-                                    <tr>
-                                        <td id="firstname"></td>
-                                        <td id="lastname"></td>
-                                        <td id="phone"></td>
-                                        <td id="email"></td>
-                                        <td id="rates"></td>
-                                        <td id="reviews"></td>
-                                    </tr>
+                                <tbody id="servicesOrderedBodyTable">
+                                    <tr></tr>
+
                                 </tbody>
                             </table>
 
@@ -228,9 +224,11 @@
 
                 </div>
             </div>
-            <br style="clear: both">
+        </div>
+        <br style="clear: both ">
 
-            <script src="../js/hire.js"></script>
+
+        <script src="../js/hire.js "></script>
 </body>
 
 </html>
