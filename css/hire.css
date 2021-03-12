@@ -210,3 +210,17 @@ input:hover::placeholder {
     /* position: fixed;
     z-index: 1; */
 }
+
+#serviceOrdered {
+    display: none;
+    float: left;
+}
+
+#orderDetails {
+    text-align: left;
+    align-items: left;
+}
+
+#serviceorderedTable {
+    float: left;
+}
