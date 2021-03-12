@@ -1,16 +1,11 @@
 
 body {
-    background-image: url(images/backgroundservices2.jpg);
+    background-color: slateblue;
     text-align: center;
     font-family: monospace;
     font-weight: bold;
-
-}
-#name {
-    background: darksalmon;
 }
 #email {
-    background-color: hotpink;
     border-style: dashed;
     border-radius: 1.5px;
 }
